@@ -1,0 +1,199 @@
+body{
+    width: 800px;
+    height: 1000px;
+    margin:20px auto;
+    border: solid black;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+.header{
+    display: block;
+    padding: 10px 0px;
+}
+#name_ShortInfo{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#name{
+    font-size: 36px;
+}
+#cover_letter{
+    font-size: 16px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(90, 89, 89);
+}
+#shortDesc{
+    font-size: 13px;
+}
+
+img{
+    /* height: 130px; */
+    width: 110px;
+    margin: 10px 20px;
+    border-radius: 70px;
+    float: left;
+}
+p{
+    margin: 2px;
+    font-size: 15px;
+}
+.contact_details{
+    margin-top:40px; 
+    background-color: rgb(210, 216, 213);
+    box-sizing: border-box;
+}
+#email{
+    margin:8px 90px;
+    display: inline-block;
+    font-size: 12px;
+    /* font-weight: bold; */
+    font-weight: 600;
+}
+#mobile{
+    margin:8px 50px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+#address{
+    margin:8px 50px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#left{
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 10px 23px;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 15px;
+    color: rgb(71, 144, 153);
+    font-weight: bold;
+    margin: 10px 0px;
+}
+#education{
+    margin-bottom: 50px;
+}
+.course_details{
+    margin-bottom:38px;
+}
+.course{
+    font-size:15px;
+    font-weight: bold;
+}
+.institute{
+    font-size: 13px;
+}
+.year{
+    float: left;
+    display: inline-block;
+    font-size: 11px;
+    color:rgb(90, 89, 89);
+    font-style: italic;
+}
+.marks{
+    display: inline-block;
+    float: right;
+    font-size: 11px;
+    color: rgb(90, 89, 89);
+    font-style: italic;
+}
+.project{
+    margin-bottom: 15px;
+}
+.project_name{
+    font-size: 15px;
+    font-weight:bold;
+}
+.project_descriptions{
+    font-size: 12px;
+    font-weight: 500;
+}
+.internship_title{
+    font-weight: bold;
+}
+.intern_description{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#right{
+    /* background-color: bisque; */
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+#skills{
+    margin-bottom: 60px;
+}
+#skill_left{
+display: inline-block;
+float: left;
+
+}
+#skill_right{
+    display: inline-block;
+}
+#skill_left p{
+margin-bottom: 15px;
+margin-right: 35px;
+font-size: 13px;
+}
+#skill_right p{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    word-wrap:break-word;
+    font-size: 13px;
+}
+.achieve_name{
+    font-size: 14px;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 25px;
+    margin:20px 0px;
+}
+#certification li{
+    margin: 2px 0px;
+}
+#languages li{
+    display: inline-block;
+    /* padding: 10px; */
+}
+#li_english{
+    float: left;
+    display: inline-block;
+}
+#li_hindi{
+    float: right;
+    padding-right: 30px;
+}
+.border_around{
+    border:solid rgb(90, 89, 89);
+    border-radius: 7px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 13px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(45, 184, 160);
+    font-weight: bold;
+}
+
